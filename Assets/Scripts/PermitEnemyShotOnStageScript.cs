@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PermitEnemyShotOnStage : MonoBehaviour
+public class PermitEnemyShotOnStageScript : MonoBehaviour
 {
     [SerializeField] string stageLayerName="DestroyArea";
 

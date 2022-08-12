@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SusideWhenChildZero : MonoBehaviour
+public class SusideWhenChildZeroScript : MonoBehaviour
 {
     IEnumerator Start() {
         Debug.Log("SusideWhenChileZero");
