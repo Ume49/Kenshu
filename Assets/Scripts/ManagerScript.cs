@@ -19,11 +19,7 @@ public class ManagerScript : MonoBehaviour
 
     void Update()
     {
-        // ゲームが始まってない時だけ動く
-        if(isPlaying() == true) return;
-        if(Input.GetKeyDown(KeyCode.X)){   // xキーを押したらゲーム開始
-            GameStart();
-        }
+        
     }
 
     void GameStart(){
