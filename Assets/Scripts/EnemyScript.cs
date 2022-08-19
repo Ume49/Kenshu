@@ -52,8 +52,6 @@ public class EnemyScript : MonoBehaviour
         // 衝突したオブジェクトのタグがPlayerBulletの時のみ処理を続行
         if (c.gameObject.CompareTag("PlayerBullet") == false) return;
 
-        Debug.Log("タグ許可");
-
         Transform playerbulletTransform = c.transform.parent;
         // PlayerBulletのコンポーネントを取得
         BulletScript bullet = playerbulletTransform.GetComponent<BulletScript>();

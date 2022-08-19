@@ -17,7 +17,5 @@ public class PermitEnemyShotOnStageScript : MonoBehaviour
 
         // ステージに入ったら射撃許可
         spaceShip.canShot = true;
-
-        Debug.Log(spaceShip.canShot);
     }
 }

@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: 1878343739}
   - component: {fileID: 1878343738}
   - component: {fileID: 4169296109840412354}
-  - component: {fileID: 602295546973302700}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -293,16 +292,3 @@ PolygonCollider2D:
       - {x: 0.24196866, y: -0.16732286}
       - {x: 0.22612226, y: 0.31147656}
       - {x: 0.22, y: 0.3473228}
---- !u!114 &602295546973302700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9004478901713334961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9375738bf3d63a34b86522aaea98c285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stageLayerName: DestroyArea

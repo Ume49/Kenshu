@@ -283,3 +283,4 @@ MonoBehaviour:
   canShot: 1
   explosion: {fileID: 4198362718019930931, guid: d36b501b173dd8a4ba106b0d7c0b0251,
     type: 3}
+  animator: {fileID: 0}
