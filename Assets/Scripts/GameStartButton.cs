@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class GameStartButton : MonoBehaviour
 {
-    public void Pushed(){
+    public void Pushed()
+    {   Debug.Log("GameStartButton.Pushed()");
+    
         // Mainシーンに遷移させる
         UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
     }

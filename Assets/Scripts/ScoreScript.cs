@@ -12,8 +12,7 @@ public class ScoreScript : MonoBehaviour
     public Text highScoreText;
 
     void Start()
-    {
-        Debug.Log("ScoreScript.Start()");
+    {   Debug.Log("ScoreScript.Start()");
 
         // スコア初期化
         score     = 0;
