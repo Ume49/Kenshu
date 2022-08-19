@@ -7,14 +7,10 @@ public class ManagerScript : MonoBehaviour
 {
     // プレイヤーのPrefab
     public GameObject player;
-    [SerializeField] GameObject title;
 
     void Start()
-    {
+    {   Debug.Log("ManagerScript.Start()");
         Debug.Log("<color=#ff0000>HelloWorld!!</color>");
-
-        // Titleゲームオブジェクトを検索し取得する
-        title = GameObject.Find("Canvas");
     }
 
     void Update()
@@ -22,24 +18,18 @@ public class ManagerScript : MonoBehaviour
         
     }
 
-    void GameStart(){
-        Debug.Log("ManagerScript.GameStart()");
-
-        // ゲームスタート時にタイトルを非表示にしてプレイヤーを作成する
-        title.SetActive(false);
-        Instantiate(player, player.transform.position, player.transform.rotation);
-    }
-
     public void GameOver(){
         Debug.Log("ManagerScript.GameOver()");
 
-        title.SetActive(true);  // ゲームオーバーになったらタイトル表示
+        // TODO: 後でコンテニューとかの処理を実装
     }
 
+    // 一応残す
     public bool isPlaying(){
         Debug.Log("ManagerScript.isPlaying()");
 
-        // ゲーム中かどうかはタイトルの表示/非表示で判断
-        return title.activeSelf == false;
+        Debug.LogWarning("ダミーコード");
+
+        return true;
     }
 }

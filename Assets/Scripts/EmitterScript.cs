@@ -22,12 +22,6 @@ public class EmitterScript : MonoBehaviour
         manager = FindObjectOfType<ManagerScript>();
 
         while(true){
-            // タイトル中は待機する
-            while(manager.isPlaying() == false) 
-            {
-                yield return new WaitForEndOfFrame();
-            }
-
             // Waveを作成する
             GameObject wave = (GameObject)Instantiate(waves[currentWave], transform.position, Quaternion.identity);
 
