@@ -66,10 +66,11 @@ public class PlayerScript : MonoBehaviour
         // Managerを探してGameOverを呼び出す
         FindObjectOfType<ManagerScript>().GameOver();
 
-        Destroy(c.gameObject);//弾の削除
+        Destroy(c.gameObject);  // 弾の削除
 
-        spaceShip.Explosion();//爆発する
+        spaceShip.Explosion();  // 爆発する
         
+        // TODO: 残基性とコンテニュー性に
         Destroy(gameObject);//プレイヤーの削除
     }
 }
