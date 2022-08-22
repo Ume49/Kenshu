@@ -466,6 +466,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+--- !u!95 &534194633 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2407325206660623631, guid: 785f84b1f9e8c50408fbd0b92909004e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2039058934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &616923343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2292,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 996180894, guid: 785f84b1f9e8c50408fbd0b92909004e, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 534194633}
     - target: {fileID: 2407325206660623624, guid: 785f84b1f9e8c50408fbd0b92909004e,
         type: 3}
       propertyPath: m_Name
